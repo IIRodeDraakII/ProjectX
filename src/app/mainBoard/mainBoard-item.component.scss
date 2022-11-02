@@ -1,0 +1,11 @@
+.Board {
+    background: grey;
+    height:200%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red !important;
+    overflow:auto
+
+
+}
