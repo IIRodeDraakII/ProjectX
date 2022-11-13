@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainBoardComponent } from './mainBoard/mainBoard-item.component';
 import { SocialMediaComponent } from './boardItems/social-media/socialMedia-item.component';
 import { NavbarComponent } from './navbar/navbar-item.component';
+import { FooterComponent } from './footer/footer-item.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavbarComponent } from './navbar/navbar-item.component';
     AppComponent,
     MainBoardComponent,
     SocialMediaComponent,
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
