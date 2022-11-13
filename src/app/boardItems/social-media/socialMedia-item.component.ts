@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-social-media',
   templateUrl: './socialMedia-item.component.html',
-  styleUrls: ['./SocialMedia-item.Component.scss']
+  styleUrls: ['./socialMedia-item.component.scss'],
 })
 export class SocialMediaComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
