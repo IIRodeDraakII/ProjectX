@@ -8,20 +8,16 @@ import { SocialMediaComponent } from './boardItems/social-media/socialMedia-item
 import { NavbarComponent } from './navbar/navbar-item.component';
 import { FooterComponent } from './footer/footer-item.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     MainBoardComponent,
     SocialMediaComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
