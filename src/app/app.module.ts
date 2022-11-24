@@ -7,7 +7,6 @@ import { MainBoardComponent } from './mainBoard/mainBoard-item.component';
 import { SocialMediaComponent } from './boardItems/social-media/socialMedia-item.component';
 import { NavbarComponent } from './navbar/navbar-item.component';
 import { FooterComponent } from './footer/footer-item.component';
-import { TodoListComponent } from './todo-list/todo-list-Item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { TodoListComponent } from './todo-list/todo-list-Item.component';
     SocialMediaComponent,
     NavbarComponent,
     FooterComponent,
-    TodoListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
