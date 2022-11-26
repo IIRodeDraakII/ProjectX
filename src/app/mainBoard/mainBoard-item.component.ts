@@ -10,3 +10,4 @@ export class MainBoardComponent implements OnInit {
 
   ngOnInit(): void {}
 }
+  

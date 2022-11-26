@@ -1,4 +1,15 @@
 .card{
     width: 25%;
     aspect-ratio: 0.7;
+
+    .account{
+        height: 15%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    hr{
+        width:75%;
+        align-self: center;
+    }
 }
