@@ -1,15 +1,50 @@
-.card{
+.card {
     width: 25%;
     aspect-ratio: 0.7;
+    background-color: rgba(128, 0, 128, 0.688); /* TO change dynamicly based on selected social*/
 
-    .account{
+    .account {
         height: 15%;
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
+            
+        p{
+            font-size: xx-large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    
     }
-    hr{
-        width:75%;
+
+    hr {
+        width: 75%;
         align-self: center;
     }
+
+    .avatar {
+        padding:10px;
+        flex-grow: 1;
+
+        img {
+            border-radius: 25%;
+
+            width: 20%;
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+    }
+        .referer {
+            display: flex;
+            height:15%;
+            justify-content: center;
+            align-items: center;
+            
+            a{
+                text-decoration: none;
+                font-size: larger;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: black;
+            }
+        }
+    
 }
