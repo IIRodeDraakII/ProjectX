@@ -1,7 +1,9 @@
 .card {
     width: 25%;
     aspect-ratio: 0.7;
-    background-color: rgba(128, 0, 128, 0.688); /* TO change dynamicly based on selected social*/
+    background: linear-gradient(to left,rgba(243, 0, 243, 0.688),rgba(247, 210, 4, 0.688) ) ;
+    background-color: rgba(243, 0, 243, 0.688); /* TO change dynamicly based on selected social*/
+    border-radius: 40px;
 
     .account {
         height: 15%;
