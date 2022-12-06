@@ -1,5 +1,4 @@
 .card {
-    width: 25%;
     aspect-ratio: 0.7;
     background: linear-gradient(to left,rgba(243, 0, 243, 0.688),rgba(247, 210, 4, 0.688) ) ;
     background-color: rgba(243, 0, 243, 0.688); /* TO change dynamicly based on selected social*/
@@ -12,7 +11,7 @@
         align-items: center;
             
         p{
-            font-size: x-large;
+            font-size: large;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     
