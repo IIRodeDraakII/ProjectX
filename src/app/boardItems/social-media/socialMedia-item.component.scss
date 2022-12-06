@@ -1,15 +1,58 @@
-.card{
-    width: 25%;
+.card {
     aspect-ratio: 0.7;
-
-    .account{
-        height: 15%;
-        display:flex;
+    background: linear-gradient(to left,rgba(243, 0, 243, 0.688),rgba(247, 210, 4, 0.688) ) ;
+    background-color: rgba(243, 0, 243, 0.688); /* TO change dynamicly based on selected social*/
+    border-radius: 40px;
+    
+    .account {
+        height: 20%;
+        display: flex;
         justify-content: center;
         align-items: center;
+            
+        p{
+            font-size: large;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    
     }
-    hr{
-        width:75%;
+
+    hr {
+        width: 75%;
         align-self: center;
+    }
+
+    .body{
+        height: 55%;
+
+    hr{
+        height: 1%
+    }
+    .avatar {
+        padding:10px;
+        flex-grow: 1;
+
+        img {
+            border-radius: 25%;
+
+            width: 20%;
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+    }
+
+        .referer {
+            display: flex;
+            height:15%;
+            justify-content: center;
+            align-items: center;
+            
+            a{
+                text-decoration: none;
+                font-size: larger;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: black;
+            }
+        }
     }
 }
